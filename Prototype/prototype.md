@@ -5,4 +5,6 @@ Benefits:
   * Reusability of instances in memory
   * Consistency
   
-
+Drawbacks:
+ * Maintenance of reference
+ * Unsupported and circular references
