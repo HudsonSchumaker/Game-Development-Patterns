@@ -2,5 +2,5 @@
 
 public interface ICopyable 
 {
-  ICopyable Copy();
+    ICopyable Copy();
 }
