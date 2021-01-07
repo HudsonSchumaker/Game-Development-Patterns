@@ -1,7 +1,6 @@
 // Hudson Schumaker
 
-
-abstract public class Missle
+abstract public class Missile
 {
     protected ISeekBehaviour seekBehaviour;
 
