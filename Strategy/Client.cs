@@ -1,6 +1,12 @@
+using UnityEngine;
 
-
-public class Client
+public class Client : MonoBehaviour
 {
-
+    void Update()
+    {
+        if()
+        {
+            
+        }
+    }
 }
