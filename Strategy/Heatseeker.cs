@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Hudson Schumaker
 public class Heatseeker : ISeekBehaviour
 {
     public void Seek()
