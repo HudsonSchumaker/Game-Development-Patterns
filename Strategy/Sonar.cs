@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Hudson Schumaker
 public class Sonar : ISeekBehaviour
 {
     public void Seek()
