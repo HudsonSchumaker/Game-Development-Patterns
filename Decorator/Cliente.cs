@@ -21,6 +21,5 @@ public class Client : Monobehavior
             IRifle rifle = new WithScope(new WithStabilizer(new BasicRifle()));
             Debug.Log("Scope + Stabilizer Accurancy: " + rifle.GetAccurancy());
         }
-        
     }
 }
