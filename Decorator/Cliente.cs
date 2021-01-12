@@ -15,5 +15,12 @@ public class Client : Monobehavior
             IRifle rifle = new WithScope(new BasicRifle());
             Debug.Log("Scope Accurancy: " + rifle.GetAccurancy());
         }
+        
+        if (Input.GetKeyDown(Keycode.Z))
+        {
+            IRifle rifle = new WithScope(new WithStabilizer(new BasicRifle()));
+            Debug.Log("Scope + Stabilizer Accurancy: " + rifle.GetAccurancy());
+        }
+        
     }
 }
