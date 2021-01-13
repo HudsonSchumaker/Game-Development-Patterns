@@ -2,5 +2,5 @@
 
 public interface ICarPart
 {
-    
+    void Accept(ICarPartVisitor visitor);
 }
