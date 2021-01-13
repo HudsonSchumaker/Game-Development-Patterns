@@ -13,4 +13,9 @@ public class CarPartShutdownVisitor : ICarPartVisitor
     {
         Debug.Log("Battery is not charged.");
     }
+    
+    public void Visit(Turbo turbo)
+    {
+        Debug.Log("Turbo is not charged.");
+    }
 }
