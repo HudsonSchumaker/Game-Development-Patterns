@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class CarPartShutdownVisitor : ICarPartVisitor
 {
-    public void Visi(Car car)
+    public void Visit(Car car)
     {
         Debug.Log("Car is off.");
     }
     
-    
+    public void Visit(Battery battery)
+    {
+        Debug.Log("Battery is not charged.");
+    }
 }
