@@ -6,9 +6,10 @@ public class Client : MonoBehavior
     void Update()
     {
         // Start car
-        if ()
+        if (Input.GetKeyDown(KeyCode.C))
         {
-        
+            ICarPart car = new Car();
+            car.Accept(new CarPartActivateVisitor());
         }
         
         // Turn off car
