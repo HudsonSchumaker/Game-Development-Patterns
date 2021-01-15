@@ -13,9 +13,10 @@ public class Client : MonoBehavior
         }
         
         // Turn off car
-        if ()
+        if (Input.GetKeyDown(KeyCode.S))
         {
-            
+            ICarPart car = new Car();
+            car.Accept(new CarPartShutdownVisitor());
         }
     }
 }
