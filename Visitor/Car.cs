@@ -7,10 +7,15 @@ public class Car : ICarPart
     
     public Car() 
     {
-        carParts = {};
+        carParts = new ICarPart[] { new Turbo(), new Gun(), new Battery() };
     }
     
     public void Accept(ICarPartVisitor visitor)
-    {}
+    {
+        for(int i = 0; i < carParts.Lengh; i++)
+        {
+                
+        }
+    }
     
 }
