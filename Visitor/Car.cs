@@ -14,8 +14,8 @@ public class Car : ICarPart
     {
         for(int i = 0; i < carParts.Lengh; i++)
         {
-                
+            carParts[i].Accept(visitor);
         }
+        visitor.Visit(this);
     }
-    
 }
