@@ -1,3 +1,4 @@
+// Hudson Schumaker
 public enum NPCType 
 {
     Farmer,
