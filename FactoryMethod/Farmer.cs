@@ -5,6 +5,6 @@ public class Farmer : INPC
 {
     public void Speak() 
     {
-        Debug.Log("What do you need?");
+        Debug.Log("You reap what you sow!");
     }
 }
