@@ -12,6 +12,7 @@ public NPCSpawner : MonoBehaviour
          INPC shopOwner = factory.GetNPC(NPCtype.Shopowner);
          
          farmer.Speak();
-         
+         beggar.speack();
+         shopOwner.speak();
    }
 }
