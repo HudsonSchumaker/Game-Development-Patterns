@@ -11,6 +11,10 @@ public class NPCFactory : MonoBehavior
             case NPCType.Beggar:
                NPC beggar = new Beggar();
             return beggar;
+            
+            case NPCType.Farmer:
+               NPC farmer = new Farmer();
+            return farmer;
         }
     }
     
