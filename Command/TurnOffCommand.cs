@@ -1,8 +1,8 @@
 // Hudson Schumaker
 
-public class TurnOnCommand
+public class TurnOffCommand
 {
-    public TurnOnCommand(RemoteControlDevice receiver) : base(receiver) {}
+    public TurnOffCommand(RemoteControlDevice receiver) : base(receiver) {}
     
     public override void Execute()
     {
