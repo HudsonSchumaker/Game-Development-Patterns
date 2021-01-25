@@ -1,6 +1,6 @@
 // Hudson Schumaker
 
-public class TurnOffCommand
+public class TurnOffCommand : Command
 {
     public TurnOffCommand(RemoteControlDevice receiver) : base(receiver) {}
     
