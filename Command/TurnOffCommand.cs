@@ -6,6 +6,6 @@ public class TurnOffCommand
     
     public override void Execute()
     {
-        remoteControlDevice.TurnOn();
+        remoteControlDevice.TurnOff();
     }
 }
