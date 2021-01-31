@@ -1,6 +1,7 @@
 using UnityEngine;
 
-class RadioReceiver : RemoteControlDevice
+// Hudson Schumaker
+public class RadioReceiver : RemoteControlDevice
 {
     public override void TurnOn()
     {
