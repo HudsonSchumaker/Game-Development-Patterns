@@ -1,7 +1,8 @@
 using UnityEngine;
 
+// Hudson Schumaker
 public class Client : MonoBehaviour
-    {
+{
         private RemoteControlDevice m_RadioReceiver;
         private RemoteControlDevice m_TelevisionReceiver;
         private RemoteControlDevice[] m_Devices = new RemoteControlDevice[2];
@@ -47,4 +48,4 @@ public class Client : MonoBehaviour
             GUI.Label(new Rect(10, 30, 500, 20), "Press K to trigger the kill switch and turn off everything.");
             GUI.Label(new Rect(10, 50, 500, 20), "Look in the Debug Console to view the status of the devices.");
         }
-    }
+}
