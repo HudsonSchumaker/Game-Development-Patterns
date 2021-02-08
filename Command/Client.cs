@@ -12,16 +12,16 @@ public class Client : MonoBehaviour
             radioReceiver = new RadioReceiver();
             televisionReceiver = new TelevisionReceiver();
 
-            m_Devices[0] = radioReceiver;
-            m_Devices[1] = televisionReceiver;
+            devices[0] = radioReceiver;
+            devices[1] = televisionReceiver;
         }
 
         void Update()
         {
             if (Input.GetKeyDown(KeyCode.O))
             {
-                Command commandTV = new TurnOnCommand(m_Devices[0]);
-                Command commandRadio = new TurnOnCommand(m_Devices[1]);
+                Command commandTV = new TurnOnCommand(devices[0]);
+                Command commandRadio = new TurnOnCommand(devices[1]);
 
                 Invoker invoker = new Invoker();
 
