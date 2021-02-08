@@ -9,11 +9,11 @@ public class Client : MonoBehaviour
 
         void Start()
         {
-            m_RadioReceiver = new RadioReceiver();
-            m_TelevisionReceiver = new TelevisionReceiver();
+            radioReceiver = new RadioReceiver();
+            televisionReceiver = new TelevisionReceiver();
 
-            m_Devices[0] = m_RadioReceiver;
-            m_Devices[1] = m_TelevisionReceiver;
+            m_Devices[0] = radioReceiver;
+            m_Devices[1] = televisionReceiver;
         }
 
         void Update()
