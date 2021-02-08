@@ -34,7 +34,7 @@ public class Client : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.K))
             {
-                Command commandKill = new KillSwitchCommand(m_Devices);
+                Command commandKill = new KillSwitchCommand(devices);
                 Invoker invoker = new Invoker();
                 invoker.SetCommand(commandKill);
                 invoker.ExecuteCommand();
