@@ -5,7 +5,7 @@ public class Client : MonoBehaviour
 {
         private RemoteControlDevice radioReceiver;
         private RemoteControlDevice televisionReceiver;
-        private RemoteControlDevice[] m_Devices = new RemoteControlDevice[2];
+        private RemoteControlDevice[] devices = new RemoteControlDevice[2];
 
         void Start()
         {
