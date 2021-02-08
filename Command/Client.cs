@@ -3,8 +3,8 @@ using UnityEngine;
 // Hudson Schumaker
 public class Client : MonoBehaviour
 {
-        private RemoteControlDevice m_RadioReceiver;
-        private RemoteControlDevice m_TelevisionReceiver;
+        private RemoteControlDevice radioReceiver;
+        private RemoteControlDevice televisionReceiver;
         private RemoteControlDevice[] m_Devices = new RemoteControlDevice[2];
 
         void Start()
