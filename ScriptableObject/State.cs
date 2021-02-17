@@ -1,6 +1,8 @@
 using UnityEngine;
 
 // Hudson Schumaker
+
+// Will create a menuItem
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
