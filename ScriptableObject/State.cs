@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Hudson Schumaker
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
