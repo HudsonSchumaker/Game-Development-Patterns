@@ -1,5 +1,4 @@
 // Hudson Schumaker
-
 public class Enemy : ICopyable
 {
     public ICopyable Copy() 
