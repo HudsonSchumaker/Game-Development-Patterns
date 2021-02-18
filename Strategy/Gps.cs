@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Hudson Schumaker
 public class Gps : ISeekBehaviour
 {
     public void Seek()
