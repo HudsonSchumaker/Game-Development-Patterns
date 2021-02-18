@@ -1,7 +1,6 @@
 using UntyEngine;
 
 // Hudson Schumaker
-
 public class NPCFactory : MonoBehavior
 {
     public INPC GetNPC(NPCType type) 
