@@ -1,5 +1,4 @@
 // Hudson Schumaker
-
 public class Archer : Enemy
 {
     public void Shoot()
