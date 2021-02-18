@@ -1,5 +1,4 @@
 // Hudson Schumaker
-
 public class SwordMaster : Enemy
 {
     public void Attack()
