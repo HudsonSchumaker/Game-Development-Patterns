@@ -1,5 +1,4 @@
 // Hudson Schumaker
-
 abstract public class Missile
 {
     protected ISeekBehaviour seekBehaviour;
