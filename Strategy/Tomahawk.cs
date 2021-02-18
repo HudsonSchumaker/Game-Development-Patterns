@@ -1,5 +1,4 @@
 // Hudson Schumaker
-
 public class Tomahawk : Missile
 {
     void Awake()
