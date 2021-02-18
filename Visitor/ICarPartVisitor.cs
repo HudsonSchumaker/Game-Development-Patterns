@@ -1,5 +1,4 @@
 // Hudson Schumaker
-
 public interface ICarPartVisitor
 {
     void Visit(Car car);
