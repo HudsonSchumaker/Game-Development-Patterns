@@ -5,14 +5,12 @@ public class HandleCollision : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Woods"))
         {
-           
         }
 
-        if (collision.CompareTag("Shuriken"))
+        if (collision.CompareTag("Water"))
         {
-           
         }
     }
     
