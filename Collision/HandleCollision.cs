@@ -11,6 +11,10 @@ public class HandleCollision : MonoBehaviour
 
         if (collision.CompareTag("Water"))
         {
+            if (LayerMask.LayerToName(collision.gameObject.layer).Equals("Deep"))
+            {
+                this.playerController.SetDrag();
+            }
         }
     }
     
