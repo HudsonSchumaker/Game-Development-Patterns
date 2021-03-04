@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // Hudson Schumaker
-public class HandleCollision : MonoBehaviour 
+public class HandleTriggerCollision : MonoBehaviour 
 {
     void OnTriggerEnter2D(Collider2D collision)
     {
