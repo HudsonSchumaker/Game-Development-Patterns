@@ -22,6 +22,12 @@ public class HandleCollision : MonoBehaviour
             this.DoDamage();
         }
     }
-
-   
+    
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Platform")
+        {
+            transform.parent = null;
+        }
+    }
 }
