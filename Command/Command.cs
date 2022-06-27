@@ -1,5 +1,5 @@
 // Hudson Schumaker
-
+// Schumaker Team
 abstract class Command
 {
     protected RemoteControlDevice remoteControlDevice;
