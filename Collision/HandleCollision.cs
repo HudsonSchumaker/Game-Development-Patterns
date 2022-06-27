@@ -1,6 +1,7 @@
 using UnityEngine;
 
 // Hudson Schumaker
+// Schumaker Team
 public class HandleCollision : MonoBehaviour 
 {
 
