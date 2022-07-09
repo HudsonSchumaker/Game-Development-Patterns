@@ -2,6 +2,7 @@ using UnityEngine;
 
 // Hudson Schumaker
 // Schumaker Team
+
 public class Client : MonoBehaviour
 {
         private RemoteControlDevice radioReceiver;
