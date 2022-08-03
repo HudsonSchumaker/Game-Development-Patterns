@@ -2,6 +2,8 @@ using UnityEngine;
 
 // Hudson Schumaker
 // Schumaker Team
+// Unity 3D
+// C#
 
 public class HandleTriggerCollision : MonoBehaviour 
 {
