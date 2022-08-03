@@ -2,6 +2,9 @@ using UnityEngine;
 
 // Hudson Schumaker
 // SchumakerTeam
+// Unity 3D
+// C#
+
 public class RadioReceiver : RemoteControlDevice
 {
     public override void TurnOn()
