@@ -1,6 +1,8 @@
 using UnityEngine;
 
 // Hudson Schumaker
+// Unity 3D
+// C#
 
 // Will create a menuItem
 [CreateAssetMenu(menuName = "State")]
