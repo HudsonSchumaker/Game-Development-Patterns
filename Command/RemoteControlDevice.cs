@@ -1,4 +1,6 @@
 // Hudson Schumaker
+// Unity 3D
+// C#
 
 abstract class RemoteControlDevice
 {
